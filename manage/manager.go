@@ -4,10 +4,10 @@ import (
 	"time"
 
 	"github.com/codegangsta/inject"
-	"gopkg.in/oauth2.v3"
-	"gopkg.in/oauth2.v3/errors"
-	"gopkg.in/oauth2.v3/generates"
-	"gopkg.in/oauth2.v3/models"
+	"github.com/h4/oauth2"
+	"github.com/h4/oauth2/errors"
+	"github.com/h4/oauth2/generates"
+	"github.com/h4/oauth2/models"
 )
 
 // NewDefaultManager create to default authorization management instance

@@ -6,11 +6,11 @@ import (
 	"net/url"
 	"os"
 
-	"gopkg.in/oauth2.v3/errors"
-	"gopkg.in/oauth2.v3/manage"
-	"gopkg.in/oauth2.v3/models"
-	"gopkg.in/oauth2.v3/server"
-	"gopkg.in/oauth2.v3/store"
+	"github.com/h4/oauth2/errors"
+	"github.com/h4/oauth2/manage"
+	"github.com/h4/oauth2/models"
+	"github.com/h4/oauth2/server"
+	"github.com/h4/oauth2/store"
 	"gopkg.in/session.v1"
 )
 
